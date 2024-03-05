@@ -1,9 +1,10 @@
 #include <stdio.h>
 
 int main(void) {
-    int box = 0;
+    int n, box = 0;
+    scanf("%d", &n);
 
-    for(int i = 1; i <= 100; i++) {
+    for(int i = 1; i <= n; i++) {
 	box += i;
     }
     printf("%d\n", box);
